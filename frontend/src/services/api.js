@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-   baseURL: "https://careerpilotai-backend.vercel.app/api"
+   baseURL: "https://backend-hqm3bdpma-pratikshabhong0306-8153s-projects.vercel.app/api"
 });
 
 api.interceptors.request.use(
