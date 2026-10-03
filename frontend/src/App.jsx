@@ -1,5 +1,5 @@
 import {
-    BrowserRouter,
+    HashRouter,
     Routes,
     Route,
     Navigate
@@ -15,7 +15,7 @@ import Roadmap from "./pages/roadmap";
 function App() {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
 
             <Routes>
 
@@ -56,7 +56,7 @@ function App() {
 
             </Routes>
 
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
